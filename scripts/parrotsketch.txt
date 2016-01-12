@@ -1,0 +1,23 @@
+Hello, [Miss?] 1
+What do you [mean "miss"?] 0
+
+I'm sorry, I have a cold. I wish to [make {a} complaint!] 1
+We're [closing for lunch.] 0
+
+Never mind that, my lad. I wish to complain about this parrot what I purchased not half an hour ago [from {this} very boutique.] 1
+Oh yes, the, uh, the Norwegian Blue...What's,uh...What's [wrong with it?] 0
+
+I'll tell you what's wrong with it, my lad. [He's dead, that's] 1 what's wrong with it!
+No, no, he's uh,...he's [resting.] 0
+
+Look, mate, I know a dead parrot when I see one, and I'm [looking at {one} right now.] 1
+No no he's not dead, he's, he's restin'! Remarkable bird, the Norwegian Blue, idn'it, ay? [Beautiful plumage!] 0
+
+The plumage don't enter into it. [It's stone dead.] 1
+Nononono, no, no! [He's resting!] 0
+
+All right then, if he's restin', I'll wake him up! Hello, Mister Polly Parrot! I've got a lovely [fresh cuttlefish] 1 for you if you show...
+
+[Stop recording now] 2
+
+
