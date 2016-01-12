@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
     {
         VoiceCommander::SQLSpeechToText   speech_to_text("speechdb", "localhost", argv[1], argv[2],
                                                          VoiceCommander::SQLSpeechToText::ClearData);
-        VoiceCommander::VoiceCommands     voice_commands("script.txt", 0);
+        VoiceCommander::VoiceCommands     voice_commands("../scripts/parrotsketch.txt", 0);
         VoiceCommander::ThreadedCommander commander(&voice_commands, &speech_to_text, 5);
 
         commander.start_listening();
