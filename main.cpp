@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
         return 0;
     }
 
-    std::string actors[] = { std::string("Cleese"), std::string("Palin") };
+    std::string actors[] = { std::string("John Cleese"), std::string("Michael Palin") };
     try
     {
         VoiceCommander::SQLSpeechToText   speech_to_text("speechdb", "localhost", argv[1], argv[2],
@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
             if (state == 2)
                 break;
         
-            std::cout << "\r" << actors[state] << std::flush;   
+            std::cout << "\r" << actors[state] << "                 " << std::flush;
             std::this_thread::sleep_for(std::chrono::milliseconds(200));
         }
         commander.stop_listening();
